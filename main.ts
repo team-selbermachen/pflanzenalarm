@@ -8,6 +8,16 @@ input.onButtonPressed(Button.A, function () {
         `)
     modus = 1
 })
+input.onButtonPressed(Button.AB, function () {
+    basic.showLeds(`
+        # # # # #
+        . . . # .
+        . . # . .
+        . # . . .
+        # # # # #
+        `)
+    modus = 0
+})
 input.onButtonPressed(Button.B, function () {
     basic.showLeds(`
         . # # # #
@@ -42,7 +52,7 @@ basic.forever(function () {
                     basic.setLedColor(0x000000)
                 } else {
                     basic.setLedColor(0xff0000)
-                    serialmp3.playMp3Track(randint(1, 12), 1)
+                    serialmp3.playMp3Track(randint(1, 13), 1)
                     basic.pause(1000)
                     basic.setLedColor(0x000000)
                 }
