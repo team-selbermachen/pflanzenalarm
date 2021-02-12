@@ -4,11 +4,24 @@
 Das Projekt Pflanzenalarm baisert auf einer Idee von Nina: https://achnina.de/fluchendepflanzen/ 
 Sie stellt ihr Projekt in einen witzigen Video vor: https://youtu.be/6XJU8ZdDm8o
 
+Der Feuchtigkeitssensor ermittelt die Feuchtigkeit der Pflanze. 
+Der Bewegungssensor ermittelt, ob sich jemand im Raum befindet.
+Es sind drei Verhaltensweisen programmiert:
+- Anzeige der Feuchtigkeit im LED Display: Beim Start oder Aktivierung mit Knopf A+B 
+- Sirenenalarm: Aktivierung mit Knopf A
+- Stimmenalarm: Aktivierung mit Knopf B  
+Ist einer der beiden Alarme aktive, dann wird er über die Lautsprecher ausgegeben, 
+wenn der Bewegungsensor eine Bewegung registrier und die Pflanzenerde zu trocken ist.
+Derzeit wir eine Feuchtigkeit von 30% als Höchstgrenze für den Alarm angenommen. 
+
 Zutaten:
-- [calliope mini rev. 1.2} (https://calliope.cc/calliope-mini/uebersicht)
-- [DFROBOTS BOSON - KIT FÜR DEN CALLIOPE MINI] (https://calliope.cc/calliope-mini/erweiterungen/boson)
+- [calliope mini rev. 1.2](https://calliope.cc/calliope-mini/uebersicht)
+- [DFROBOTS BOSON - KIT FÜR DEN CALLIOPE MINI](https://calliope.cc/calliope-mini/erweiterungen/boson)
 - JBL Charge 3 - als Lautsprecher und Batterie
-- „Seeed Studio Grove - 4P Female Jumper to Grove 4P"
+- „Seeed Studio Grove - 4P Female Jumper to Grove 4P" Kabel
+- YX5300 Serial mp3 player 
+- MircoSD Speicherkarte
+
 
 Aufbau:
 ![Versuchsaufbau](https://github.com/team-selbermachen/pflanzenalarm/blob/master/Pflanzenalarm.png?raw=true) 
