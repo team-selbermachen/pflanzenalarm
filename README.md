@@ -1,6 +1,18 @@
 
 > Diese Seite bei [https://team-selbermachen.github.io/pflanzenalarm/](https://team-selbermachen.github.io/pflanzenalarm/) öffnen
 
+Das Projekt Pflanzenalarm baisert auf einer Idee von Nina: https://achnina.de/fluchendepflanzen/ 
+Sie stellt ihr Projekt in einen witzigen Video vor: https://youtu.be/6XJU8ZdDm8o
+
+Zutaten:
+- [calliope mini rev. 1.2} (https://calliope.cc/calliope-mini/uebersicht)
+- [DFROBOTS BOSON - KIT FÜR DEN CALLIOPE MINI] (https://calliope.cc/calliope-mini/erweiterungen/boson)
+- JBL Charge 3 - als Lautsprecher und Batterie
+- „Seeed Studio Grove - 4P Female Jumper to Grove 4P"
+
+Aufbau:
+![Versuchsaufbau](https://github.com/team-selbermachen/pflanzenalarm/blob/master/Pflanzenalarm.png?raw=true) 
+
 ## Als Erweiterung verwenden
 
 Dieses Repository kann als **Erweiterung** in MakeCode hinzugefügt werden.
